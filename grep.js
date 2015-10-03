@@ -8,17 +8,19 @@ var searchWord = prompt('Write the word you want to search: ');
 // Divide the textarea by lines
 var lines = textArea.split('\n');
 
-// To LowerCase
+// To LowerCase -------------------------------- (Incomplete)
 
 	// Make the change of textArea to lowercase
 	// Make the change of searchWord to lowercase
 	// Change in the fors those variables
 
+// ---------------------------------------------
+
 /* 
 Iterates line by line 
 	Saves words of each line
 	Validates if searchWord is in those words 
-	Prints an html <br> tag for each line that it finds the word
+	Prints an html <h2> tag for each line that it finds the word
 */ 
 for(var i = 0; i < lines.length; i++){
 	var words = lines[i].split(' ');
